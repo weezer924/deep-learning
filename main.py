@@ -22,8 +22,7 @@ import numpy as np
 # plt.show()
 
 # A = np.array([1, 2, 3, 4])
-A = np.array([[1, 2, 4, 6, 5], [3, 4, 5, 5, 7], [3, 4, 5, 5, 7]])
-print(A)
-print(np.ndim(A))
-print(A.shape)
-print(A.shape[0])
+A = np.array([[1, 2, 4], [3, 4, 5]])
+B = np.array([[1, 3], [3, 4], [5, 6]])
+
+print(np.dot(A, B))
